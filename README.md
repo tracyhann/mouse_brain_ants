@@ -1,9 +1,9 @@
 # Create conda environment
 
-`cd /path/to/mouse_brain_ants`
-`conda create --name mouse_ants`
-`conda activate mouse_ants`
-`pip install -r requirements.txt`
+- `cd /path/to/mouse_brain_ants`
+- `conda create --name mouse_ants`
+- `conda activate mouse_ants`
+- `pip install -r requirements.txt`
 
 # Data structure
 <pre>
