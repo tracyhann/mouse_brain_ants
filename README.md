@@ -1,5 +1,5 @@
 # Data structure
-
+<pre>
 . {root_dir} Data
 ├── {date} 20251001
     └── {mouse} M2
@@ -9,10 +9,10 @@
         |   ├── ...
         └── M2_565
             └── frames.tif # Multi-page, (T, H, W) where T = timepoints
-
+</pre>
 
 # Output data directory structure
-
+<pre>
 . {root_dir} Data
 ├── {date} 20251001
     └── {mouse} M2
@@ -45,5 +45,5 @@
             ├── CROSS_CAM_REG_0GenericAffine.mat 
             ├── MOVING_FRAMES_MC_0GenericAffine.mat # Moving stack within-camera motion-correction
             └── REFERENCE_FRAMES_MC_0GenericAffine.mat 
-
+</pre>
 
