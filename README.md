@@ -1,11 +1,11 @@
-# Create conda environment
+## Create conda environment
 
 - `cd /path/to/mouse_brain_ants`
 - `conda create --name mouse_ants`
 - `conda activate mouse_ants`
 - `pip install -r requirements.txt`
 
-# Data structure
+## Data structure
 <pre>
 . {root_dir} Data
 ├── {date} 20251001
@@ -18,7 +18,7 @@
             └── frames.tif # Multi-page, (T, H, W) where T = timepoints
 </pre>
 
-# Output data directory structure
+## Output data directory structure
 <pre>
 . {root_dir} Data
 ├── {date} 20251001
@@ -54,6 +54,6 @@
                 └── REFERENCE_FRAMES_MC_0GenericAffine.mat 
 </pre>
 
-# Example output
+## Example output
 
 ![A beautiful landscape](example_output.png "Co-registered Examples")
