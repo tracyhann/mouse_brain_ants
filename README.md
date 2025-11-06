@@ -54,3 +54,6 @@
                 └── REFERENCE_FRAMES_MC_0GenericAffine.mat 
 </pre>
 
+# Example output
+
+![A beautiful landscape](example_output.png "Co-registered Examples")
